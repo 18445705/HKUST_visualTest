@@ -1,0 +1,58 @@
+#dataset-picker{
+    text-align: center;
+    margin: 15px;
+}
+svg{
+    margin: auto;
+}
+rect.bordered {
+    stroke: #fff;
+    stroke-width:7px;
+}
+text.mono {
+    font-size: 9pt;
+    font-family: Consolas, courier;
+    fill: #000;
+}
+.marginrl{
+    margin: 0 5px;
+}
+.d3-tip {
+    line-height: 1;
+    padding: 6px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+}
+.operation-button{
+    font-size: 16px;
+    font-family: Consolas, courier;
+    color: #333;
+    cursor: pointer;
+}
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+.tick{
+    text-align: center;
+}
+.clearfix:after{
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+}
+.clearfix{
+    display:block;
+}
+#lastYears{
+    text-align: center;
+    margin-top: 20px;
+}
+a
+

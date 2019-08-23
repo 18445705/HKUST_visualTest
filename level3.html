@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Level 3</title>
+    <style>
+        .link {
+            stroke: #c1c1c1;
+            stroke-width: 2px;
+            pointer-events: all;
+        }
+
+        .node circle {
+            pointer-events: all;
+            stroke: #777;
+            stroke-width: 1px;
+        }
+
+        div.tooltip {
+            position: absolute;
+            background-color: white;
+            max-width: 200px;
+            height: auto;
+            padding: 1px;
+            border-style: solid;
+            border-radius: 4px;
+            border-width: 1px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, .5);
+            pointer-events: none;
+        }
+        .left{
+            float: left;
+        }
+        .padding10{
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div style="text-align: center">
+        <a href="level1.html" style="display: inline-block; margin-right: 40px">Go to Level 1</a>
+        <a href="level2.html">Go to Level 2</a>
+    </div>
+    <div id="nodeLink" class="left padding10">
+        <svg width="560" height="700"></svg>
+    </div>
+    <div id="matrix" class="left padding10">
+        <svg width="760" height="700"></svg>
+    </div>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="js/level3.js"></script>
+</body>
